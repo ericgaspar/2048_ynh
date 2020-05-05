@@ -49,7 +49,8 @@
                     "fr": "Est-ce une application publique ?"
                 },
                  "help": {
-                        "en": "This app will be accesible by everybody"
+                        "en": "This app will be accesible by everybody.",
+                        "fr": "Cette app sera accessible à tout le monde."
                 },
                 "default": true
             }
