@@ -1,0 +1,6 @@
+SOURCE_URL=https://github.com/gabrielecirulli/2048/archive/master.tar.gz
+SOURCE_SUM=2390dddf7b77b104714cd869a4f14f67d979d575bdee5e148eaecff91bc611ec
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.gz
+SOURCE_IN_SUBDIR=true
+SOURCE_FILENAME=2048-master.tar.gz
