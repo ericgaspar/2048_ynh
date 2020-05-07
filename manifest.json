@@ -46,13 +46,8 @@
                 "type": "boolean",
                 "ask": {
                     "en": "Is it a public application?",
-                    "fr": "Est-ce une application publique ?"
-                },
-                 "help": {
-                        "en": "This app will be accesible by everybody.",
-                        "fr": "Cette app sera accessible à tout le monde."
-                },
-                 "help": {
+                    "fr": "Est-ce une application publique ?",
+                "help": {
                         "en": "If enabled, 2048 will be accessible by people who doesn’t have an account. This can be changed later via the webadmin.",
                         "fr": "Si cette case est cochée, 2048 sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
                 },
