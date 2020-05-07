@@ -8,7 +8,7 @@
     },
     "url": "https://github.com/gabrielecirulli/2048",
     "version": "1.0~ynh1",
-    "license": "free",
+    "license": "MIT",
     "maintainer": {
         "name": "Moul",
         "email": "moul@moul.re"
@@ -16,7 +16,7 @@
     "requirements": {
         "yunohost": ">= 3.6.5"
     },
-    "multi_instance": false,
+    "multi_instance": true,
     "services": [
         "nginx"
     ],
@@ -51,6 +51,10 @@
                  "help": {
                         "en": "This app will be accesible by everybody.",
                         "fr": "Cette app sera accessible à tout le monde."
+                },
+                 "help": {
+                        "en": "If enabled, 2048 will be accessible by people who doesn’t have an account. This can be changed later via the webadmin.",
+                        "fr": "Si cette case est cochée, 2048 sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
                 },
                 "default": true
             }

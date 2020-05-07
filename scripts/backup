@@ -7,7 +7,6 @@
 #=================================================
 
 #Keep this path for calling _common.sh inside the execution's context of backup and restore scripts
-source ../settings/scripts/_common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
@@ -37,7 +36,7 @@ ynh_backup --src_path="$final_path"
 #=================================================
 # BACKUP THE NGINX CONFIGURATION
 #=================================================
-ynh_script_progression --message="Backing up Nginx web server configuration..." --weight=1
+ynh_script_progression --message="Backing up Nginx web server configuration..." --weight=2
 
 ynh_backup --src_path="/etc/nginx/conf.d/$domain.d/$app.conf"
 
@@ -45,4 +44,4 @@ ynh_backup --src_path="/etc/nginx/conf.d/$domain.d/$app.conf"
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Backup script completed for $app. (YunoHost will then actually copy those files to the archive)." --time --last
+ynh_script_progression --message="Backup script completed for $app. (YunoHost will then actually copy those files to the archive)." --last
