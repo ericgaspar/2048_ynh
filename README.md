@@ -1,7 +1,7 @@
 # 2048 for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/2048.svg)](https://dash.yunohost.org/appci/app/2048) ![](https://ci-apps.yunohost.org/ci/badges/2048.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/2048.maintain.svg)  
-[![Install 2048 with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=2048)
+[![Install 2048 with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=2048)
 
 *[Lire ce readme en français.](./README_fr.md)*
 
@@ -33,8 +33,7 @@ If you don't have YunoHost, please see [here](https://yunohost.org/#/install) to
 
 ---
 
-Developers info
-----------------
+## Developers info
 
 Please do your pull request to the [testing branch](https://github.com/YunoHost-Apps/2048_ynh/tree/testing).
 
